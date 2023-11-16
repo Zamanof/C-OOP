@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{95062d64-d58a-4fab-8476-fd4f2d6e7f42}</ProjectGuid>
-    <RootNamespace>OOPintroclass</RootNamespace>
+    <ProjectGuid>{a4f1a749-ac0a-43fb-bdfd-6b70fe75370a}</ProjectGuid>
+    <RootNamespace>COOP1membersmethods</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,7 +127,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="C++OOP.cpp" />
+    <ClCompile Include="Human.cpp" />
+    <ClCompile Include="memebers methods.cpp" />
+    <ClCompile Include="Student.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Human.h" />
+    <ClInclude Include="Student.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
