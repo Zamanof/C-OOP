@@ -8,7 +8,7 @@ public:
 
 	// methods - member functions
 	void info();
-
+	
 private:
 	double average();
 };

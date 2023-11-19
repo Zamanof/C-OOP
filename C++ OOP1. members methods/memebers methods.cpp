@@ -12,4 +12,5 @@ int main() {
 	Human human{ "Nadir", "Zamanov", 42 };
 	human.info();
 
+
 }
