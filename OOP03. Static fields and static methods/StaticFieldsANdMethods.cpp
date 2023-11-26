@@ -29,10 +29,10 @@ int main() {
 	cout << &point2.x << endl;
 	cout << &point3.x << endl;*/
 
-	cout << &point.count << endl;
+	/*cout << &point.count << endl;
 	cout << &point1.count << endl;
 	cout << &point2.count << endl;
 	cout << &point3.count << endl;
-	cout << &Point::count << endl;
+	cout << &Point::count << endl;*/
 
 }

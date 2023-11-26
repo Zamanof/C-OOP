@@ -24,6 +24,7 @@
     <ProjectGuid>{f672d424-13bc-4e98-b55c-5aae3e5632c8}</ProjectGuid>
     <RootNamespace>OOP2this</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>OOP02. this</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
