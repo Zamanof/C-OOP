@@ -49,6 +49,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OOP05. without operator ove
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OOP05. operator overloading Point", "OOP05. operator overloading Point\OOP05. operator overloading Point.vcxproj", "{50F60EE7-F8AA-4D71-8097-414AEDC6EA80}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "C++ OOP06", "C++ OOP06", "{60DD64BD-2AAF-4C66-BE26-948FB5A8DA5C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OOP06. Dynamic array with overloading", "OOP06. Dynamic array with overloading\OOP06. Dynamic array with overloading.vcxproj", "{2092F15E-6885-40AB-86FC-63113A3AF33D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -193,6 +197,14 @@ Global
 		{50F60EE7-F8AA-4D71-8097-414AEDC6EA80}.Release|x64.Build.0 = Release|x64
 		{50F60EE7-F8AA-4D71-8097-414AEDC6EA80}.Release|x86.ActiveCfg = Release|Win32
 		{50F60EE7-F8AA-4D71-8097-414AEDC6EA80}.Release|x86.Build.0 = Release|Win32
+		{2092F15E-6885-40AB-86FC-63113A3AF33D}.Debug|x64.ActiveCfg = Debug|x64
+		{2092F15E-6885-40AB-86FC-63113A3AF33D}.Debug|x64.Build.0 = Debug|x64
+		{2092F15E-6885-40AB-86FC-63113A3AF33D}.Debug|x86.ActiveCfg = Debug|Win32
+		{2092F15E-6885-40AB-86FC-63113A3AF33D}.Debug|x86.Build.0 = Debug|Win32
+		{2092F15E-6885-40AB-86FC-63113A3AF33D}.Release|x64.ActiveCfg = Release|x64
+		{2092F15E-6885-40AB-86FC-63113A3AF33D}.Release|x64.Build.0 = Release|x64
+		{2092F15E-6885-40AB-86FC-63113A3AF33D}.Release|x86.ActiveCfg = Release|Win32
+		{2092F15E-6885-40AB-86FC-63113A3AF33D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -215,6 +227,7 @@ Global
 		{BF130D82-E431-420C-8220-EF6306301932} = {ECC82275-AA65-4468-861A-6AF79A965B53}
 		{26978195-789F-4ED4-A440-1870E8A7E989} = {ECC82275-AA65-4468-861A-6AF79A965B53}
 		{50F60EE7-F8AA-4D71-8097-414AEDC6EA80} = {ECC82275-AA65-4468-861A-6AF79A965B53}
+		{2092F15E-6885-40AB-86FC-63113A3AF33D} = {60DD64BD-2AAF-4C66-BE26-948FB5A8DA5C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ECD4D7F0-012D-4FC7-91DB-69F03C9A0482}
