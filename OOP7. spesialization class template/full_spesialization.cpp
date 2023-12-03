@@ -95,5 +95,4 @@ int main() {
 
 	cout << "Max = " << strList.getMax() << endl;
 	cout << "Min = " << strList.getMin() << endl;
-
 }
