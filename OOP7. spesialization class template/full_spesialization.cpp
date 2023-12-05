@@ -73,9 +73,6 @@ public:
 	}
 };
 
-class MySupperPupperMupperUserDefinedClass {
-
-};
 
 int main() {
 
