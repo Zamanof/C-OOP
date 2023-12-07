@@ -45,8 +45,9 @@ int main() {
 
 	cout << surname.at(2) << endl;
 	cout << surname[2] << endl;
-	surname.clear();
-	cout << surname.length() << endl;
+	
+	/*surname.clear();*/
+	
 
 
 }
