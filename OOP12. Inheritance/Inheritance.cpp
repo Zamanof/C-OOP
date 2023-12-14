@@ -132,9 +132,14 @@ public:
 };
 int main() {
 	/*
-		Base class -> Derived class
-		Super class -> Sub class
-		Parent class -> Child class
+		Base class			->		Derived class
+		Bazoviy class		->		Proizvodniy class
+
+		Super class			->		Sub class
+		Superklass			->		Podklass
+
+		Parent class		->		Child class
+		Roditelskiy class	->		Docherniy class
 	*/
 
 	/*Student student(12);
