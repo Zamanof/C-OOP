@@ -118,7 +118,7 @@ public:
 };
 int main() 
 {
-	/*DerivedPublic derivedPublic;
+	DerivedPublic derivedPublic;
 	derivedPublic.accessInfo();
 	cout << derivedPublic.publicBaseField << endl;
 	
@@ -126,7 +126,7 @@ int main()
 	derivedProtected.accessInfo();
 
 	DerivedPrivate derivedPrivate;
-	derivedPrivate.accessInfo();*/
+	derivedPrivate.accessInfo();
 	
 	/*ThirdInheritanceFromPublic obj1;
 	cout << obj1.publicBaseField << endl;
