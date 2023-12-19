@@ -101,6 +101,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OOP13. Multiple inheritance
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OOP13. Diamond problem", "OOP13. Diamond problem\OOP13. Diamond problem.vcxproj", "{A6EAD726-639B-4553-B0CA-3B4BB1B43578}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OOP13. Polymorphism intro", "OOP13. Polymorphism intro\OOP13. Polymorphism intro.vcxproj", "{932CCE72-C2C9-4FAB-A06D-7271FEFF69D4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -389,6 +391,14 @@ Global
 		{A6EAD726-639B-4553-B0CA-3B4BB1B43578}.Release|x64.Build.0 = Release|x64
 		{A6EAD726-639B-4553-B0CA-3B4BB1B43578}.Release|x86.ActiveCfg = Release|Win32
 		{A6EAD726-639B-4553-B0CA-3B4BB1B43578}.Release|x86.Build.0 = Release|Win32
+		{932CCE72-C2C9-4FAB-A06D-7271FEFF69D4}.Debug|x64.ActiveCfg = Debug|x64
+		{932CCE72-C2C9-4FAB-A06D-7271FEFF69D4}.Debug|x64.Build.0 = Debug|x64
+		{932CCE72-C2C9-4FAB-A06D-7271FEFF69D4}.Debug|x86.ActiveCfg = Debug|Win32
+		{932CCE72-C2C9-4FAB-A06D-7271FEFF69D4}.Debug|x86.Build.0 = Debug|Win32
+		{932CCE72-C2C9-4FAB-A06D-7271FEFF69D4}.Release|x64.ActiveCfg = Release|x64
+		{932CCE72-C2C9-4FAB-A06D-7271FEFF69D4}.Release|x64.Build.0 = Release|x64
+		{932CCE72-C2C9-4FAB-A06D-7271FEFF69D4}.Release|x86.ActiveCfg = Release|Win32
+		{932CCE72-C2C9-4FAB-A06D-7271FEFF69D4}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -429,6 +439,7 @@ Global
 		{45E5FB3C-F448-4C99-8711-87CEEA29CC7A} = {46B4DC23-EC08-4EBC-9324-D1FDF2FDD34B}
 		{011CF1C1-921E-49EC-9ABA-E82734B5CF17} = {5DA84C28-C4E2-42BE-A5EA-D5B43E76DD8C}
 		{A6EAD726-639B-4553-B0CA-3B4BB1B43578} = {5DA84C28-C4E2-42BE-A5EA-D5B43E76DD8C}
+		{932CCE72-C2C9-4FAB-A06D-7271FEFF69D4} = {5DA84C28-C4E2-42BE-A5EA-D5B43E76DD8C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ECD4D7F0-012D-4FC7-91DB-69F03C9A0482}
