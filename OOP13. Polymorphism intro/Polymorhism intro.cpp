@@ -49,7 +49,7 @@ public:
 class CheshirCat : public Cat
 {
 public:
-	void Sound()
+	void Sound() override
 	{
 		cout << name << " - Smile" << endl;
 	}
@@ -133,7 +133,18 @@ int main() {
 	/*other(cat);
 	other(dog);*/
 
-	CheshirCat cheshir;
+	/*CheshirCat cheshir;
 	cheshir.name = "Cheshire cat";
-	info(cheshir);
+	info(cheshir);*/
+	/*Animal* animals = new Animal[5]{
+	Dog(),
+	Dog(),
+	CheshirCat(),
+	Cat()
+	};
+	for (size_t i = 0; i < 5; i++)
+	{
+		animals[i].Sound();
+	}*/
+	
 }
