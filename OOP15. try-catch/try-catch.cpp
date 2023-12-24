@@ -27,7 +27,7 @@ void Some(float numb1, float numb2) {
 	}
 	catch (float ex)
 	{
-		cout << "throw exceptio float " << ex << endl;
+		cout << "throw exception float " << ex << endl;
 		throw ex;
 	}
 }
