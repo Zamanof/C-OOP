@@ -141,6 +141,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OOP20. My Shared Pointer", 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OOP20. weakPointer", "OOP20. weakPointer\OOP20. weakPointer.vcxproj", "{1443FE5B-0C10-4097-93FA-1817A780D932}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "C++ OOP21", "C++ OOP21", "{4E3AD36F-B7DF-4908-B362-071D5E81EFB1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
