@@ -93,17 +93,17 @@ public:
 		: name(name)
 	{
 		array = new int[10000];
-		cout << "Object " << name << " constructed!" << endl;
+		cout << "Object - " << name << " constructed!" << endl;
 	}
 	~ForShared()
 	{
 		delete[] array;
-		cout << "Object " << name << " destructed!" << endl;
+		cout << "Object - " << name << " destructed!" << endl;
 	}
 
 	void foo()
 	{
-		cout << "Object " << name << " foooo!" << endl;
+		cout << "Object - " << name << " foooo!" << endl;
 	}
 
 };
