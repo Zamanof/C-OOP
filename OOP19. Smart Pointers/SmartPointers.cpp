@@ -111,4 +111,6 @@ int main() {
 	}
 	cout <<"Share " << shared1.use_count()<<" smart pointers" << endl;
 	
+
+	
 }
