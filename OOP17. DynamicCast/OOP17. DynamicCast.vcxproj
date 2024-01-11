@@ -24,7 +24,7 @@
     <ProjectGuid>{71d33275-deb9-4012-a9eb-d7529eed15a0}</ProjectGuid>
     <RootNamespace>OOP17DynamicCast</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>OOP18. DynamicCast</ProjectName>
+    <ProjectName>OOP17. DynamicCast</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

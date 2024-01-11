@@ -65,6 +65,7 @@ int main() {
 	strcpy_s(human3.surname, "Zamanov");
 	human3.info();
 	strcpy_s(human3.surname, "Kamalov");
+
 	human3.info();
 
 	// access modificators

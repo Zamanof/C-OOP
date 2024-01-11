@@ -24,6 +24,7 @@
     <ProjectGuid>{1443fe5b-0c10-4097-93fa-1817a780d932}</ProjectGuid>
     <RootNamespace>OOP20weakPointer</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>OOP19. weakPointer</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

@@ -24,7 +24,7 @@
     <ProjectGuid>{c199402c-aad7-4109-8c7c-7860aface21f}</ProjectGuid>
     <RootNamespace>OOP17Staticcast</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>OOP18. Static cast</ProjectName>
+    <ProjectName>OOP17. Static cast</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

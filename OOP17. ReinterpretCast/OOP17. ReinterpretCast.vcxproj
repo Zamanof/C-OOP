@@ -24,7 +24,7 @@
     <ProjectGuid>{981fe57a-0016-452a-a1d9-923caaf0feb5}</ProjectGuid>
     <RootNamespace>OOP17ReinterpretCast</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>OOP18. ReinterpretCast</ProjectName>
+    <ProjectName>OOP17. ReinterpretCast</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

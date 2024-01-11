@@ -24,7 +24,7 @@
     <ProjectGuid>{c5ec7150-26fb-4652-b51a-9955da26a510}</ProjectGuid>
     <RootNamespace>OOP17ConsCast</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>OOP18. ConsCast</ProjectName>
+    <ProjectName>OOP17. ConsCast</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

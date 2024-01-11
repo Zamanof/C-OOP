@@ -3,12 +3,10 @@
 
 using namespace std;
 
-
-
 void Student::show() {
-	cout << "Name:\t\t" << _name << endl;
-	cout << "Last name:\t" << _surname << endl;
-	cout << "Age:\t\t" << _age << endl;
+	cout << "Name: \t\t" << _name << endl;
+	cout << "Last name: \t" << _surname << endl;
+	cout << "Age: \t\t" << _age << endl;
 }
 
 void Student::initialize(
