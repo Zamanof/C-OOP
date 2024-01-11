@@ -24,6 +24,7 @@
     <ProjectGuid>{310eac26-8841-48e7-9fbf-b54b83be5167}</ProjectGuid>
     <RootNamespace>OOP7spesializationclasstemplate</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>OOP07. spesialization class template</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
