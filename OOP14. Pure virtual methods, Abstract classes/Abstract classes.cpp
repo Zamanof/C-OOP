@@ -1,4 +1,5 @@
 #include <iostream>
+#include<vector>
 
 using namespace std;
 
@@ -75,9 +76,15 @@ void infoCat(Cat& cat) {
 int main() {
 	CheshirCat cheshir;
 	cheshir.name = "Cheshir";
+	cheshir.price = 23.34;
 	infoAnimal(cheshir);
 	infoMammal(cheshir);
 	infoCat(cheshir);
 	cheshir.LifeIdea();
+	vector<Animal*> animals;
+	animals.push_back(new CheshirCat());
+	animals[0]->name = "Salam";
+	
+	cout << animals[0]->name << endl;
 	
 }

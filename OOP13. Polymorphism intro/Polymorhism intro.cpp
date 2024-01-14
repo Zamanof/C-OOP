@@ -1,5 +1,6 @@
 #include<iostream>
 
+
 using namespace std;
 
 // static polymorphism
@@ -96,14 +97,14 @@ int main() {
 		cout << foo(a, b) << endl;*/
 #pragma endregion
 
-	Animal animal;
+	/*Animal animal;
 	animal.name = "666";
 	Dog dog;
 	dog.age = 1256;
 	dog.name = "Cerber";
 	Cat cat;
 	cat.name = "Mastan";
-	cat.price = 2365.65;
+	cat.price = 2365.65;*/
 
 	/*animal.Sound();
 	dog.Sound();
@@ -147,4 +148,6 @@ int main() {
 		animals[i].Sound();
 	}*/
 	
+
+
 }
