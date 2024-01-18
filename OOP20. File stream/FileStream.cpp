@@ -69,6 +69,7 @@ int main() {
 	// istream::get(unsigned char* buf, int n, char c = '\n')
 	// istream::get(char* buf, int n, char c = '\n')
 	// izvlekayet stroku iz potoka
+	
 
 
 
