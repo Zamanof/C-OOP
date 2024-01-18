@@ -27,11 +27,11 @@ int main() {
 	int numb2 = 13;
 	int numb3 = 135;
 	// void foo(const int* number1, const int& number2)
-	cout << "Before function calling" << endl;
+	/*cout << "Before function calling" << endl;
 	cout << "numb1 = " << numb1 << endl;
 	cout << "numb2 = " << numb2 << endl;
 	foo(&numb1, numb2);
 	cout << "After function calling" << endl;
 	cout << "numb1 = " << numb1 << endl;
-	cout << "numb2 = " << numb2 << endl;
+	cout << "numb2 = " << numb2 << endl;*/
 }
