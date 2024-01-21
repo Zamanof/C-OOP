@@ -38,7 +38,7 @@ void Human::Put() {
 void Human::Show() {
 	cout << "Name:\t\t" << name << endl;
 	cout << "Surname:\t" << surname << endl;
-	cout << "Age:\t" << age << endl;
+	cout << "Age:\t\t" << age << endl;
 	cout << "-----------------------------------" << endl;
 }
 
@@ -76,7 +76,7 @@ void Human::ShowFromFile() {
 	t_surname = string(surname);
 	cout << "Name:\t\t" << t_name << endl;
 	cout << "Surname:\t" << t_surname << endl;
-	cout << "Age:\t" << t_age << endl;
+	cout << "Age:\t\t" << t_age << endl;
 	cout << "-----------------------------------" << endl;
 }
 int main() {
