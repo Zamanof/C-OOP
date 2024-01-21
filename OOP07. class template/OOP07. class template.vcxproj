@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{0598f6ba-bb18-4eb9-afce-2ea539ecd3f8}</ProjectGuid>
+    <ProjectGuid>{32F36D94-F7CA-42BF-ABC4-0E2061A1F1C1}</ProjectGuid>
     <RootNamespace>OOP7classtemplate</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
     <ProjectName>OOP07. class template</ProjectName>

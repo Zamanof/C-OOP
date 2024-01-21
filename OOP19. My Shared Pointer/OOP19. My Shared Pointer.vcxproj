@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{1ca73e43-244d-4d63-9caf-c2e1de9e3cef}</ProjectGuid>
+    <ProjectGuid>{E867D7AC-04E9-4DBD-A087-92A1904BFE46}</ProjectGuid>
     <RootNamespace>OOP20MySharedPointer</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
     <ProjectName>OOP19. My Shared Pointer</ProjectName>

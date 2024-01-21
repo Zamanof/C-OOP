@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{142650b6-c16b-41c6-afb6-1a10bc0126e9}</ProjectGuid>
+    <ProjectGuid>{DA3A8900-734A-4BC0-B140-0FD25559E197}</ProjectGuid>
     <RootNamespace>OOP3Constructordelegation</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
     <ProjectName>OOP03. Constructor delegation</ProjectName>

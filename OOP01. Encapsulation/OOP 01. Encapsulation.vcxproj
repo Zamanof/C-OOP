@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{dcebfef2-9c71-4fe3-9fca-df7e39a6e495}</ProjectGuid>
+    <ProjectGuid>{3EC18B01-80A7-49D7-8899-292EDCD869EA}</ProjectGuid>
     <RootNamespace>OOP01Encapsulation</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
     <ProjectName>OOP02. Encapsulation</ProjectName>

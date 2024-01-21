@@ -19,7 +19,7 @@ public:
 };
 
 Human::Human()
-	:name(""), surname(""), age(0)
+	:name(string()), surname(string()), age(0)
 {}
 
 Human::Human(string name, string surname, int age)
@@ -48,21 +48,32 @@ void Human::SavetoFile() {
 		cout << "File doesn't open for write!!!" << endl;
 		exit(1);
 	}
+	int n = name.length(), s = surname.length();
 	file.write((char*)&age, sizeof(age));
-	file.write((char*)&name, sizeof(name));
-	file.write((char*)&surname, sizeof(surname));
+	file.write((char*)&n, sizeof(int));
+	file.write(name.c_str(), n);
+	file.write((char*)&s, sizeof(int));
+	file.write(surname.c_str(), s);
+	file.close();
 	
 }
 
 void Human::ShowFromFile() {
-	int t_age;
+	int t_age, n, s;
 	string t_name, t_surname;
+	char* name,* surname;
 	fstream file("human.txt", ios::in | ios::binary);
 	file.read((char*)&t_age, sizeof(age));
-	
-	file.read((char*)&t_name, sizeof(name));
-	file.read((char*)&t_surname, sizeof(surname));
+	file.read((char*)&n, sizeof(int));
+	name = new char[n+1] {};
+	file.read(name, n);
+	file.read((char*)&s, sizeof(int));
+	surname = new char[s+1] {};
+	file.read(surname, s);
+
 	file.close();
+	t_name = string(name);
+	t_surname = string(surname);
 	cout << "Name:\t\t" << t_name << endl;
 	cout << "Surname:\t" << t_surname << endl;
 	cout << "Age:\t" << t_age << endl;
@@ -70,15 +81,6 @@ void Human::ShowFromFile() {
 }
 int main() {
 	/*Human human1("Nadir", "Zamanov", 43);
-	fstream file("human.txt", ios::out | ios::binary);
-	file.write((char*)&human1, sizeof(Human));
-	file.close();*/
-
-	fstream file2("human.txt", ios::in| ios::binary);
-	Human human2;
-	file2.read((char*)&human2, sizeof(Human));
-	file2.close();
-	human2.Show();
-
-	cout << "Hi" << endl;
+	human1.SavetoFile();*/
+	Human::ShowFromFile();
 }

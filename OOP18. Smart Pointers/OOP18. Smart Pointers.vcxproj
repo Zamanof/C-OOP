@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{e9c6b569-99d4-4262-a5e0-3349aefe87a7}</ProjectGuid>
+    <ProjectGuid>{E275C856-3BE4-4CBE-BCCB-F5ECD7BC9187}</ProjectGuid>
     <RootNamespace>OOP19SmartPointers</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
     <ProjectName>OOP18. Smart Pointers</ProjectName>
