@@ -21,7 +21,7 @@ void show(vector<T> vec);
 int main() {
 	srand(time(NULL));
 	vector<int> numbers(20);
-	generate_n(numbers.begin(), numbers.size(), Randint(-99, 99));
+	generate_n(numbers.begin(), numbers.size(), Randint(-10, 10));
 	show(numbers);
 	// 1. Non modify operations
 
@@ -69,64 +69,89 @@ int main() {
 
 		// swap()				menyayet mestami dva elementa
 
-		// replace()			zamenyayet elementi s ukazannim znacheniyem
+	/*int a = 5, b = 56;
+	cout << "a = " << a << " b = " << b << endl;
+	swap(a, b);
+	cout << "a = " << a << " b = " << b << endl;*/
 
-		// replace_()			zamenyayet elementi po predikatu
+	// replace()			zamenyayet elementi s ukazannim znacheniyem
+	/*replace(numbers.begin(), numbers.end(), 3, 5);
+	show(numbers);*/
+	// replace_if()			zamenyayet elementi po predikatu
+	/*replace_if(numbers.begin(), numbers.end(), [](int n) {return n < 0; }, 0);
+	show(numbers);*/
 
-		// replace_copy()		kopiruet posledovatelnost, zamenyaya elementi s ukazannim znacheniyem
+	// replace_copy()		kopiruet posledovatelnost, zamenyaya elementi s ukazannim znacheniyem
 
-		// replace_copy_if()	kopiruet posledovatelnost, zamenyaya elementi po predikatu
+	// replace_copy_if()	kopiruet posledovatelnost, zamenyaya elementi po predikatu
 
-		// fill()				zamenyayet vse elementi ukazannim znacheniyen
+	// fill()				zamenyayet vse elementi ukazannim znacheniyen
+/*vector<string> words(10);
+fill(words.begin(), words.end(), "Empty");
+show(words);*/
 
-		// remove()				udalyayet elementi s ukazannim znacheniyem
+// remove()				udalyayet elementi s ukazannim znacheniyem
 
-		// remove_if()			udalyayet elementi po predikatu
+// remove_if()			udalyayet elementi po predikatu
+/*show(numbers);
+int count_even = count_if(numbers.begin(), numbers.end(), [](int n) {return n % 2 == 0; });
+for (size_t i = 0; i < count_even; i++)
+{
+	auto s = numbers.begin();
+	auto e = numbers.end();
+
+	auto rmv = remove_if(s, e, [](int n) {return n % 2 == 0; });
+	numbers.erase(rmv);
 	show(numbers);
-	int count_even = count_if(numbers.begin(), numbers.end(), [](int n) {return n % 2 == 0; });
-	for (size_t i = 0; i < count_even; i++)
+
+}*/
+
+// remove_copy()		kopiruet posledovatelnost, udalyaya elementi s ukazannim znacheniyem
+
+// remove_copy_if()		kopiruet posledovatelnost, udalyaya elementi po predikatu
+
+// reverse()			menyayet poryadok posledovatelnosti na obratniy
+/*reverse(numbers.begin(), numbers.end());
+show(numbers);*/
+
+// random_shuffle		peremeshayet randomno elementi
+/*random_shuffle(numbers.begin(), numbers.end());
+show(numbers);*/
+// transform()			vipolnyayet zadannuyu operasiyu nad kajdim elementom
+
+/*vector<int> multTwo;
+transform(numbers.begin(), numbers.end(), back_inserter(multTwo), [](int n) {return n * 2; });
+show(multTwo);*/
+
+// unique()				udalyayaet ravniye sosedniye elementi
+
+// unique_copy()		kopiruet posledovatelnost, udalyayaya ravniye sosedniye elementi
+
+
+// 3. sort operation
+
+// sort()				sortirovka
+
+// partial_sort()		sortirovka chasti posledovatelnosti
+
+// stable_ sort()		sortirovka soxraneniyem poryadka ravnix elementov
+
+// lower_bound()		naxodit perviy element menshiy chem znacheniye
+
+// upper_bound()		naxodit perviy element bolshiy chem znacheniye
+
+// binary_search()		proveryayet est li zadanniy element v sortirovannoy posledovatelnosti
+	/*sort(numbers.begin(), numbers.end(), [](int left, int right) {return left < right; });
+	show(numbers);
+	auto find = binary_search(numbers.begin(), numbers.end(), 3);
+	if (find)
 	{
-		auto s = numbers.begin();
-		auto e = numbers.end();
-
-		auto rmv = remove_if(s, e, [](int n) {return n % 2 == 0; });
-		numbers.erase(rmv);
-		show(numbers);
-
+		cout << "3 in vector" << endl;
 	}
+	else {
+		cout << "Not found" << endl;
+	}*/
 
-	// remove_copy()		kopiruet posledovatelnost, udalyaya elementi s ukazannim znacheniyem
-
-	// remove_copy_if()		kopiruet posledovatelnost, udalyaya elementi po predikatu
-
-	// reverse()			menyayet poryadok posledovatelnosti na obratniy
-
-	// random_shuffle		peremeshayet randomno elementi
-
-	// transform()			vipolnyayet zadannuyu operasiyu nad kajdim elementom
-
-	/*vector<int> multTwo;
-	transform(numbers.begin(), numbers.end(), back_inserter(multTwo), [](int n) {return n * 2; });
-	show(multTwo);*/
-
-	// unique()				udalyayaet ravniye sosedniye elementi
-
-	// unique_copy()		kopiruet posledovatelnost, udalyayaya ravniye sosedniye elementi
-
-
-	// 3. sort operation
-
-	// sort()				sortirovka
-
-	// partial_sort()		sortirovka chasti posledovatelnosti
-
-	// stable_ sort()		sortirovka soxraneniyem poryadka ravnix elementov
-
-	// lower_bound()		naxodit perviy element menshiy chem znacheniye
-
-	// upper_bound()		naxodit perviy element bolshiy chem znacheniye
-
-	// binary_search()		proveryayet est li zadanniy element v sortirovannoy posledovatelnosti
 
 	// merge()				slivayet dve otsortirovanniye posledovatelnosti
 
