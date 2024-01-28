@@ -93,7 +93,7 @@ show(words);*/
 // remove()				udalyayet elementi s ukazannim znacheniyem
 
 // remove_if()			udalyayet elementi po predikatu
-	show(numbers);
+	/*show(numbers);
 	int count_even = count_if(numbers.begin(), numbers.end(), [](int n) {return n % 2 == 0; });
 
 	auto s = numbers.begin();
@@ -101,7 +101,7 @@ show(words);*/
 
 	auto rmv = remove_if(s, e, [](int n) {return n %2 == 0; });
 	numbers.erase(rmv, e);
-	show(numbers);
+	show(numbers);*/
 
 
 
