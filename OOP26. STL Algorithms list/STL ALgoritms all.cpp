@@ -21,7 +21,7 @@ void show(vector<T> vec);
 int main() {
 	srand(time(NULL));
 	vector<int> numbers(20);
-	generate_n(numbers.begin(), numbers.size(), Randint(-10, 10));
+	generate_n(numbers.begin(), numbers.size(), Randint(0, 10));
 	show(numbers);
 	// 1. Non modify operations
 
@@ -93,95 +93,94 @@ show(words);*/
 // remove()				udalyayet elementi s ukazannim znacheniyem
 
 // remove_if()			udalyayet elementi po predikatu
-/*show(numbers);
-int count_even = count_if(numbers.begin(), numbers.end(), [](int n) {return n % 2 == 0; });
-for (size_t i = 0; i < count_even; i++)
-{
+	show(numbers);
+	int count_even = count_if(numbers.begin(), numbers.end(), [](int n) {return n % 2 == 0; });
+
 	auto s = numbers.begin();
 	auto e = numbers.end();
 
-	auto rmv = remove_if(s, e, [](int n) {return n % 2 == 0; });
-	numbers.erase(rmv);
+	auto rmv = remove_if(s, e, [](int n) {return n %2 == 0; });
+	numbers.erase(rmv, e);
 	show(numbers);
 
-}*/
-
-// remove_copy()		kopiruet posledovatelnost, udalyaya elementi s ukazannim znacheniyem
-
-// remove_copy_if()		kopiruet posledovatelnost, udalyaya elementi po predikatu
-
-// reverse()			menyayet poryadok posledovatelnosti na obratniy
-/*reverse(numbers.begin(), numbers.end());
-show(numbers);*/
-
-// random_shuffle		peremeshayet randomno elementi
-/*random_shuffle(numbers.begin(), numbers.end());
-show(numbers);*/
-// transform()			vipolnyayet zadannuyu operasiyu nad kajdim elementom
-
-/*vector<int> multTwo;
-transform(numbers.begin(), numbers.end(), back_inserter(multTwo), [](int n) {return n * 2; });
-show(multTwo);*/
-
-// unique()				udalyayaet ravniye sosedniye elementi
-
-// unique_copy()		kopiruet posledovatelnost, udalyayaya ravniye sosedniye elementi
 
 
-// 3. sort operation
+	// remove_copy()		kopiruet posledovatelnost, udalyaya elementi s ukazannim znacheniyem
 
-// sort()				sortirovka
+	// remove_copy_if()		kopiruet posledovatelnost, udalyaya elementi po predikatu
 
-// partial_sort()		sortirovka chasti posledovatelnosti
+	// reverse()			menyayet poryadok posledovatelnosti na obratniy
+	/*reverse(numbers.begin(), numbers.end());
+	show(numbers);*/
 
-// stable_ sort()		sortirovka soxraneniyem poryadka ravnix elementov
+	// random_shuffle		peremeshayet randomno elementi
+	/*random_shuffle(numbers.begin(), numbers.end());
+	show(numbers);*/
+	// transform()			vipolnyayet zadannuyu operasiyu nad kajdim elementom
 
-// lower_bound()		naxodit perviy element menshiy chem znacheniye
+	/*vector<int> multTwo;
+	transform(numbers.begin(), numbers.end(), back_inserter(multTwo), [](int n) {return n * 2; });
+	show(multTwo);*/
 
-// upper_bound()		naxodit perviy element bolshiy chem znacheniye
+	// unique()				udalyayaet ravniye sosedniye elementi
 
-// binary_search()		proveryayet est li zadanniy element v sortirovannoy posledovatelnosti
-	/*sort(numbers.begin(), numbers.end(), [](int left, int right) {return left < right; });
-	show(numbers);
-	auto find = binary_search(numbers.begin(), numbers.end(), 3);
-	if (find)
-	{
-		cout << "3 in vector" << endl;
-	}
-	else {
-		cout << "Not found" << endl;
-	}*/
+	// unique_copy()		kopiruet posledovatelnost, udalyayaya ravniye sosedniye elementi
 
 
-	// merge()				slivayet dve otsortirovanniye posledovatelnosti
+	// 3. sort operation
+
+	// sort()				sortirovka
+
+	// partial_sort()		sortirovka chasti posledovatelnosti
+
+	// stable_ sort()		sortirovka soxraneniyem poryadka ravnix elementov
+
+	// lower_bound()		naxodit perviy element menshiy chem znacheniye
+
+	// upper_bound()		naxodit perviy element bolshiy chem znacheniye
+
+	// binary_search()		proveryayet est li zadanniy element v sortirovannoy posledovatelnosti
+		/*sort(numbers.begin(), numbers.end(), [](int left, int right) {return left < right; });
+		show(numbers);
+		auto find = binary_search(numbers.begin(), numbers.end(), 3);
+		if (find)
+		{
+			cout << "3 in vector" << endl;
+		}
+		else {
+			cout << "Not found" << endl;
+		}*/
 
 
-	// 4. Rabota s mnojestvami
-
-	// includes()			proverka na vxojdeniye
-
-	// set_union()			obyedeneneyie mnojestv
-
-	// set_intersection()	peresecheniye mnojestv
-
-	// set_difference()		raznost mnojestv
+		// merge()				slivayet dve otsortirovanniye posledovatelnosti
 
 
-	// 5. Minimumi i maksimumi
+		// 4. Rabota s mnojestvami
 
-	// min()				menshe iz dvux
+		// includes()			proverka na vxojdeniye
 
-	// max()				bolshe iz dvux
+		// set_union()			obyedeneneyie mnojestv
 
-	// min_element()		naimensheye v posledovatelnosti
+		// set_intersection()	peresecheniye mnojestv
 
-	// max_element()		naibolshoye v posledovatelnosti
+		// set_difference()		raznost mnojestv
+
+
+		// 5. Minimumi i maksimumi
+
+		// min()				menshe iz dvux
+
+		// max()				bolshe iz dvux
+
+		// min_element()		naimensheye v posledovatelnosti
+
+		// max_element()		naibolshoye v posledovatelnosti
 
 
 
-	// 6. Perestonovki
-	// next_permutation()	sleduyushaya perestonovka v leksikoqraficheskom poryadke
-	// prev_permutation()	predidushaya perestonovka v leksikoqraficheskom poryadke
+		// 6. Perestonovki
+		// next_permutation()	sleduyushaya perestonovka v leksikoqraficheskom poryadke
+		// prev_permutation()	predidushaya perestonovka v leksikoqraficheskom poryadke
 
 }
 
